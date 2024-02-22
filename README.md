@@ -2,7 +2,13 @@
 voice-recording-app
 # MERN Stack Voice Recorder Application
 
-![Voice Recorder](https://github.com/sachin2398/voice-recorder/assets/113828281/ee8a0cd2-be9f-41be-8d03-ebc904019ecf)
+## Screenshots
+> ## Frame 1
+| Small Screen           | Large Screen            |
+| ---------------------- | ---------------------- |
+| ![homepage](https://github.com/sachin2398/voice-recorder/assets/113828281/13791537-67df-45bc-ae12-ee290363ac36)| ![homepage](https://github.com/sachin2398/voice-recorder/assets/113828281/7d74ee0b-04fd-4ade-be1b-878149be8330)|
+
+
 ![Database](https://github.com/sachin2398/voice-recorder/assets/113828281/4e4ae1b1-a22b-4f0a-bd2e-8e647e00b506)
 
 
