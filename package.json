@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.3",
-  "description": "Simple MERN Stack Voice Recorder Application",
+  "description": "voice-recorder",
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",

@@ -81,7 +81,10 @@ const App = () => {
 
   return (
     <>
+            <h1 className="text-center text-danger mt-5 mb-3">Audio Recoder</h1>
+       
       <form onSubmit={submitHandler} className="d-flex p-2 player">
+ 
         {state.isRecording ? (
           <a className="btn btn-outline-danger" onClick={stopRecording} disabled={!state.isRecording} style={{paddingTop: '12px'}}>
             <BsStopFill />

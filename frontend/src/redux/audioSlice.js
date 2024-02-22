@@ -1,10 +1,10 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from 'axios'
-
+const api='https://record-backend-vmc7.onrender.com';
 
 export const AddAudio = createAsyncThunk('audio/AddAudio', async (audio) => {
     try {
-        const res = await axios.post('http://localhost:5001/api/audio', audio)
+        const res = await axios.post(`${api}/api/audio`, audio)
         return res.data;
     } catch (error) {
         console.log(error)
@@ -14,7 +14,7 @@ export const AddAudio = createAsyncThunk('audio/AddAudio', async (audio) => {
 
 export const GetAudio = createAsyncThunk('audio/getAudios', async (audio) => {
     try {
-        const response = await axios.get('http://localhost:5001/api/audio', audio)
+        const response = await axios.get(`${api}/api/audio`, audio)
         return response.data;
     } catch (error) {
         console.log(error)

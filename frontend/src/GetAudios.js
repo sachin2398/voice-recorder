@@ -29,14 +29,14 @@ const GetAudioList = () => {
 
     return (
         <div className='rounded p-3 my-2'>
-            <h3 className='text-center text-success lead'><u>Previously Saved Recordings</u></h3>
-            <p className='text-center mb-0'>Cannot save data more than <code>100Kb</code> to the database.</p>
-            <span className='text-muted text-center'>Please check file size in console, at the end of base64 text.</span>
-            {audio?.audios?.slice().reverse().map((item) => ( // Reversed mapping here
+            <h3 className='text-center text-success lead '><u className='fw-bold'>Previously Saved Recordings</u></h3>
+            <p className='text-center mb-0 text-white'>Cannot save data more than <code>100Kb</code> to the database.</p>
+            <span className='text-muted text-center '> <p className='text-white'>Please check file size in console, at the end of base64 text.</p> </span>
+            {audio?.audios?.slice().reverse().map((item) => (
                 <div key={item._id}>
                     <h4 className='d-none'>{item.audio}</h4>
                     <audio src={item.audio} controls className='w-100' /><br />
-                    <span><span className='fw-bolder'>Date/Time</span> {new Date(item.createdAt).toLocaleString('en-US')} </span>
+                    <span><span className='fw-bolder'> <p className='text-success'>Date/Time</p> </span> <p className='text-warning'> {new Date(item.createdAt).toLocaleString('en-US')}</p> </span>
                     <hr className='m-2' />
                 </div>
             ))}
