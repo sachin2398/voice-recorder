@@ -1,13 +1,12 @@
 # voice-recorder
 voice-recording-app
 # MERN Stack Voice Recorder Application
-## Deployment
 
-You can access the deployed version of this project [here](https://record-front.vercel.app/). If your project is not deployed yet, you can omit this section or specify future deployment plans.
 
-## Video Demo
+<h2>Deployment Link: https://record-front.vercel.app/</h2>
+ 
+<h2>Video Link: https://drive.google.com/file/d/1VoCTLSZEW1jJic4v_PUaqfGeU7WmG0yG/view?usp=sharing</h2>
 
-Check out the video demo of the project [here](https://drive.google.com/file/d/1VoCTLSZEW1jJic4v_PUaqfGeU7WmG0yG/view?usp=sharing). If you don't have a video demo, you can omit this section or specify future plans for creating one.
 ## Screenshots
 > ## Frame 1
 | Small Screen           | Large Screen            |
